@@ -2,8 +2,9 @@ import style from './title.module.css'
 import PropTypes from 'prop-types';
 
 const Title = ({title}) => {
+
   return (
-    <div className={style.title}>{title}</div>
+    <div className={`${style.title} ${title=="Winner"? style.blue:style.red}`}>{title}</div>
   )
 }
 
