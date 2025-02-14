@@ -1,0 +1,17 @@
+.main_container {
+  align-items: center;
+  background-color: bisque;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 0 50px;
+}
+.container_cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
